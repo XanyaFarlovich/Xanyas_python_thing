@@ -1,3 +1,4 @@
+#1-st number 
 t = turtle.Turtle('turtle')
 
 t.width(1.5)
@@ -30,5 +31,21 @@ for _ in range(5):
     t.left(90)
     t.forward(25)
     t.left(90)
+
+turtle.done()
+
+#2-nd number
+t = turtle.Turtle('turtle')
+
+t.width(1.5)
+t.color('forestgreen')
+
+f  = 35
+
+for _ in range(10):
+    t.forward(f)
+    f = f - 5
+    t.right(90)
+    
 
 turtle.done()
